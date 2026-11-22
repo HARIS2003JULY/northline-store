@@ -1,0 +1,57 @@
+NORTHLINE ONLINE STORE - EASY START GUIDE
+=========================================
+
+You do NOT need an API key for this project.
+It uses FakeStoreAPI, which is free and open (https://fakestoreapi.com/products).
+You only need an internet connection.
+
+
+STEP 1: UNZIP
+  Right-click northline-store.zip > "Extract All" (Windows)
+  or double-click it (Mac). You get a folder called "northline-store".
+  Inside it you should see: index.html, style.css, script.js, README.md
+
+
+STEP 2: RUN IT (pick ONE way)
+
+  EASIEST WAY: double-click index.html
+    It opens in your browser and works right away.
+
+  BEST WAY: VS Code + Live Server
+    1. Install Visual Studio Code: https://code.visualstudio.com
+    2. File > Open Folder > choose the "northline-store" folder.
+    3. Click the Extensions icon (four squares on the left side).
+    4. Search "Live Server" (by Ritwick Dey) and click Install.
+    5. Right-click index.html > "Open with Live Server".
+    6. Your browser opens at http://127.0.0.1:5500
+
+
+STEP 3: TRY THE FEATURES
+  - Click the category buttons: Electronics, Jewelry, Clothing.
+  - Type in the search box (press the / key to jump to it).
+  - Use "Sort by" and the "Max price" slider.
+  - Click a product picture for a quick view.
+  - Click the heart to save a product.
+  - Click "Add to cart", then the bag icon (top right) to open the cart.
+  - Use + and - to change quantity. Press - at 1 to remove (there is an Undo).
+  - Try promo codes:  WELCOME10  (10% off)   or   FREESHIP  (free shipping)
+  - Click Checkout, fill the form, and place the (pretend) order.
+  - Click the moon icon for dark mode.
+
+  Your cart, saved items and theme are remembered when you close the page.
+
+
+IF SOMETHING GOES WRONG
+  "We could not load the catalog"
+      -> Check your internet connection and click "Try again".
+  Products show but pictures are blank
+      -> Your internet may block fakestoreapi.com images. Try another network.
+  The page has no colours / looks plain
+      -> index.html, style.css and script.js must be in the SAME folder.
+  Nothing happens when I click
+      -> Press F12, open the "Console" tab, and send me the red message.
+
+
+NOTE
+  This is a demo shop. No real payments are taken and nothing is shipped.
+  The card option is simulated and never asks for card numbers.
